@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="250dp"
+        >
+
+        <TextView
+            android:id="@+id/text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="アカウント"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edit_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:hint="@string/edit"
+            android:textColorHint="@color/darkgray"
+
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:focusable="true"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:text="パスワード"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edit_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:hint="@string/edit"
+            android:textColorHint="@color/darkgray"
+
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:focusable="true"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bt_shape1"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:text="次へ"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/bt_shape1"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:text="パスワード忘れた"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>
+
